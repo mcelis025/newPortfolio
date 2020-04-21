@@ -9,6 +9,7 @@ body, html {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    background-attachment: fixed;
 }
 
 .myPage {
@@ -19,7 +20,8 @@ body, html {
 }
 
 .navText {
-    font-family: 'Lobster', cursive;
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: 2px;
     font-size: 200%;
     text-shadow: 2px 2px 4px #000000;
 	-webkit-box-shadow: 8px 0px 6px -6px black;
@@ -29,7 +31,8 @@ body, html {
 }
 
 .navTextLast {
-    font-family: 'Lobster', cursive;
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: 2px;
     font-size: 200%;
     text-shadow: 2px 2px 4px #000000;
     /*font-family: 'Roboto', sans-serif;*/
@@ -37,4 +40,19 @@ body, html {
 
 .logo {
     width: 15%;
+}
+
+.titles {
+
+}
+
+.secTitle {
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: 2px;
+    font-size: 300%;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.myPic {
+    width: 20%;
 }
