@@ -81,3 +81,19 @@ body, html {
 .carousel-inner {
     width: 100%;
 }
+
+.carTitle {
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px #000000; 
+    background-color: #738485;
+    opacity: .9;
+}
+
+.carDesc {
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px #000000; 
+    background-color: #738485;
+    opacity: .9;
+}
