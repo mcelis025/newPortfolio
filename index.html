@@ -17,12 +17,11 @@
 </head>
 <body>
 <div class="container-fluid bg"> 
-  
   <nav class="navbar navbar-expand-md navbar-dark fixed-top mb-5">
     <div class="container-fluid">
       <a class="navbar-brand myPage text-light ml-5" href="#about">
         <img src="assets/images/newLogo3.png" class="d-inline-block align-center logo" alt="logo">
-            Miguel Celis
+          Miguel Celis
       </a>
       <button class="navbar-toggler bg-dark" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
@@ -45,14 +44,14 @@
   <br><br>
 
   <div class="container-fluid mt-5" id="about">
-    <p class="secTitle topPara text-light ml-5">About Me</h1>
+    <p class="topPara text-light ml-5 pl-2">About Me</h1>
   </div>
   <div class="row container-fluid mt-3 pt-3 pb-3">
     <div class="col-md-1"></div>
     <div class="col-md-3">  
       <img src="assets/images/miguel.jpg" class="d-inline-block align-left rounded border border-dark shadow myPic" alt="Miguel"/> 
     </div>
-    <div class="col-md-7 border-dark border paragraphs">
+    <div class="col-md-7 border-dark rounded border paragraphs">
       <p class="paraText text-light">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam est, perspiciatis natus illum harum et minus, voluptatem recusandae nihil officiis, eveniet mollitia? Labore mollitia aliquid accusantium deserunt officia ad sunt?
       </p>
@@ -67,12 +66,13 @@
   </div>
 
   <div class="container-fluid ml-5 mt-5" id="portfolio">
-    <p class="secTitle text-light">Portfolio</h1>
+    <p class="secTitle text-light pl-2">Portfolio</h1>
   </div>
   <div class="container-fluid">
     <div class="row">
-      <div class="card-deck ml-5 mr-5">
-        <div class="card">
+      <div class="card-deck">
+        <div class="col-md-1"></div>
+        <div class="card col-md-3">
           <img class="card-img-top" src="assets/images/test.jpg" alt="Card image" style="width:100%">
           <div class="card-body">
             <h4 class="card-title">John Doe</h4>
@@ -80,7 +80,7 @@
            <a href="#" class="btn btn-primary stretched-link">See Profile</a>
           </div>
         </div>
-        <div class="card">
+        <div class="card col-md-3">
           <img class="card-img-top" src="assets/images/test.jpg" alt="Card image" style="width:100%">
           <div class="card-body">
             <h4 class="card-title">John Doe</h4>
@@ -88,7 +88,7 @@
            <a href="#" class="btn btn-primary stretched-link">See Profile</a>
           </div>
         </div>
-        <div class="card">
+        <div class="card col-md-3">
           <img class="card-img-top" src="assets/images/test.jpg" alt="Card image" style="width:100%">
           <div class="card-body">
             <h4 class="card-title">John Doe</h4>
@@ -96,54 +96,40 @@
            <a href="#" class="btn btn-primary stretched-link">See Profile</a>
           </div>
         </div>
-        <div class="card">
-          <img class="card-img-top" src="assets/images/test.jpg" alt="Card image" style="width:100%">
-          <div class="card-body">
-            <h4 class="card-title">John Doe</h4>
-            <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-           <a href="#" class="btn btn-primary stretched-link">See Profile</a>
-          </div>
-        </div>
+        <div class="col-md-1"></div>
       </div>
     </div>
-    <div class="row mt-5">
-        <div class="card-deck ml-5 mr-5">
-          <div class="card">
-            <img class="card-img-top" src="assets/images/test.jpg" alt="Card image" style="width:100%">
-            <div class="card-body">
-              <h4 class="card-title">John Doe</h4>
-              <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-             <a href="#" class="btn btn-primary stretched-link">See Profile</a>
-            </div>
-          </div>
-          <div class="card">
-            <img class="card-img-top" src="assets/images/test.jpg" alt="Card image" style="width:100%">
-            <div class="card-body">
-              <h4 class="card-title">John Doe</h4>
-              <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-             <a href="#" class="btn btn-primary stretched-link">See Profile</a>
-            </div>
-          </div>
-          <div class="card">
-            <img class="card-img-top" src="assets/images/test.jpg" alt="Card image" style="width:100%">
-            <div class="card-body">
-              <h4 class="card-title">John Doe</h4>
-              <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-             <a href="#" class="btn btn-primary stretched-link">See Profile</a>
-            </div>
-          </div>
-          <div class="card">
-            <img class="card-img-top" src="assets/images/test.jpg" alt="Card image" style="width:100%">
-            <div class="card-body">
-              <h4 class="card-title">John Doe</h4>
-              <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-             <a href="#" class="btn btn-primary stretched-link">See Profile</a>
-            </div>
+    <div class="row">
+      <div class="card-deck mt-5">
+        <div class="col-md-1"></div>
+        <div class="card col-md-3">
+          <img class="card-img-top" src="assets/images/test.jpg" alt="Card image" style="width:100%">
+          <div class="card-body">
+            <h4 class="card-title">John Doe</h4>
+            <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+           <a href="#" class="btn btn-primary stretched-link">See Profile</a>
           </div>
         </div>
+        <div class="card col-md-3">
+          <img class="card-img-top" src="assets/images/test.jpg" alt="Card image" style="width:100%">
+          <div class="card-body">
+            <h4 class="card-title">John Doe</h4>
+            <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+           <a href="#" class="btn btn-primary stretched-link">See Profile</a>
+          </div>
+        </div>
+        <div class="card col-md-3">
+          <img class="card-img-top" src="assets/images/test.jpg" alt="Card image" style="width:100%">
+          <div class="card-body">
+            <h4 class="card-title">John Doe</h4>
+            <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+           <a href="#" class="btn btn-primary stretched-link">See Profile</a>
+          </div>
+        </div>
+        <div class="col-md-1"></div>
       </div>
+    </div>
   </div>
-
 
 </div>
 

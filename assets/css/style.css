@@ -1,11 +1,11 @@
 body, html {
     height: 100%;
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 .bg {
     background-image: url("../images/mountain.jpg");
-    height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -69,6 +69,10 @@ body, html {
     background-color: #738485;
 }
 
-#topPara {
+.topPara {
     margin-top: 10%;
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: 2px;
+    font-size: 300%;
+    text-shadow: 2px 2px 4px #000000;
 }
