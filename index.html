@@ -7,11 +7,13 @@
   <title>Miguel Celis</title>
 
   <!-- Favicon -->
-  <link rel="icon" href="assets/images/newLogo3.png" type="image" sizes="16x16">
+  <link rel="icon" href="assets/images/newLogo3.png" sizes="16x16">
   <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
   <!-- Bootstrap -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- Material Design Bootstrap -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.16.0/css/mdb.min.css" rel="stylesheet">
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
@@ -44,7 +46,7 @@
   <br><br>
 
   <div class="container-fluid mt-5" id="about">
-    <p class="topPara text-light ml-5 pl-2">About Me</h1>
+    <p class="topPara text-light ml-5 pl-2">About Me</p>
   </div>
   <div class="row container-fluid mt-3 pt-3 pb-3">
     <div class="col-md-1"></div>
@@ -66,7 +68,7 @@
   </div>
 
   <div class="container-fluid ml-5 mt-5" id="portfolio">
-    <p class="secTitle text-light pl-2">Portfolio</h1>
+    <p class="secTitle text-light pl-2">Portfolio</p>
   </div>
   <div class="container-fluid">
     <div class="row">
@@ -105,35 +107,35 @@
           </ul>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="assets/images/trainSchd.png" alt="Train" class="carImg">
+              <img src="assets/images/trainSchd.png" alt="Train" class="carImg rounded">
                 <div class="carousel-caption">
                   <h2 class="carTitle">Train Scheduler</h2>
                   <p class="carDesc">We had such a great time in LA!</p>
                 </div>   
             </div>
             <div class="carousel-item">
-              <img src="assets/images/trivia.png" alt="Trivia" class="carImg">
+              <img src="assets/images/trivia.png" alt="Trivia" class="carImg rounded">
                 <div class="carousel-caption">
                   <h2 class="carTitle">Trivia Game</h2>
                   <p class="carDesc">Thank you, Chicago!</p>
                 </div>   
             </div>
             <div class="carousel-item">
-              <img src="assets/images/gifTastic.png" alt="GifTastic" class="carImg">
+              <img src="assets/images/gifTastic.png" alt="GifTastic" class="carImg rounded">
                 <div class="carousel-caption">
                   <h2 class="carTitle">GifTastic</h2>
                   <p class="carDesc">We love the Big Apple!</p>
                 </div>   
             </div>
             <div class="carousel-item">
-              <img src="assets/images/wordGuess.png" alt="Hang Man" class="carImg">
+              <img src="assets/images/wordGuess.png" alt="Hang Man" class="carImg rounded">
                 <div class="carousel-caption">
                   <h2 class="carTitle">Hang Man</h2>
                   <p class="carDesc">We love the Big Apple!</p>
                 </div>   
             </div>
             <div class="carousel-item">
-              <img src="assets/images/rpgGame.png" alt="RPG Game" class="carImg">
+              <img src="assets/images/rpgGame.png" alt="RPG Game" class="carImg rounded">
                 <div class="carousel-caption">
                   <h2 class="carTitle">RPG Game</h2>
                   <p class="carDesc">We love the Big Apple!</p>
@@ -153,44 +155,35 @@
 
   </div>
 
-  <div class="container-fluid ml-5 mt-5" id="portfolio">
-    <p class="secTitle text-light pl-2">Contact</h1>
+  <div class="container-fluid ml-5 mt-5" id="contact">
+    <p class="secTitle text-light pl-2">Contact</p>
   </div>
   <div class="container-fluid">
-    <div class="row mb-5">
+    <div class="row">
       <div class="card-deck mt-5">
         <div class="col-md-2"></div>
-        <div class="card col-md-2">
-          <img class="card-img-top" src="assets/images/test.jpg" alt="Card image">
-          <div class="card-body">
-            <h4 class="card-title">John Doe</h4>
-            <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-           <a href="#" class="btn btn-primary stretched-link">See Profile</a>
+        <div class="card col-md-2 bg-transparent view overlay">
+          <a href="https://linkedin.com/in/miguel-celis-3x11" target="_blank">
+            <img class="card-img-top conImg" src="assets/images/linked.jpg" alt="Card image">
+            <div class="mask flex-center near-moon-gradient">
+              <p class="white-text">Light overlay</p>
           </div>
+        </a>
         </div>
-        <div class="card col-md-2">
-          <img class="card-img-top" src="assets/images/test.jpg" alt="Card image">
-          <div class="card-body">
-            <h4 class="card-title">John Doe</h4>
-            <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-           <a href="#" class="btn btn-primary stretched-link">See Profile</a>
-          </div>
+        <div class="card col-md-2 bg-transparent">
+          <a href="https://github.com/mcelis025" target="_blank">
+            <img class="card-img-top" src="assets/images/gitWhite.png" alt="Card image">
+          </a>
         </div>
-        <div class="card col-md-2">
-          <img class="card-img-top" src="assets/images/test.jpg" alt="Card image">
-          <div class="card-body">
-            <h4 class="card-title">John Doe</h4>
-            <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-           <a href="#" class="btn btn-primary stretched-link">See Profile</a>
-          </div>
+        <div class="card col-md-2 bg-transparent">
+          <a href="mailto:mcelis025@gmail.com?subject=Miguel Celis Portfolio" target="_blank">
+            <img class="card-img-top" src="assets/images/gmail.png" alt="Card image">
+          </a>
         </div>
-        <div class="card col-md-2">
-          <img class="card-img-top" src="assets/images/test.jpg" alt="Card image" style="width:100%">
-          <div class="card-body">
-            <h4 class="card-title">John Doe</h4>
-            <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-           <a href="#" class="btn btn-primary stretched-link">See Profile</a>
-          </div>
+        <div class="card col-md-2 bg-transparent">
+          <a href="assets/documents/Resume.pdf" target="_blank">
+            <img class="card-img-top" src="assets/images/resume.png" alt="Card image">
+          </a>
         </div>
         <div class="col-md-2"></div>
       </div>
@@ -199,10 +192,19 @@
 
 </div>
 
+<footer class="text-center mt-5">
+  <a class="up-arrow" href="#" title="TO TOP">
+    <span class="far fa-arrow-alt-circle-up"></span>
+  </a><br><br>
+  <p>Made By Miguel Celis</p>
+</footer>
+
   <!-- JS -->
+  <script src="https://kit.fontawesome.com/d9a90a75c8.js" crossorigin="anonymous"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="assets/javascript/app.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.16.0/js/mdb.min.js"></script>
+  <script src="assets/javascript/app.js"></script>
 </body>
 </html>
