@@ -12,11 +12,17 @@ body, html {
     background-attachment: fixed;
 }
 
+.navi {
+    background-color: #738485;
+    width: 100%;
+}
+
 .myPage {
     font-family: 'Fjalla One', sans-serif;
     font-size: 400%;
     text-shadow: 2px 2px 4px #000000;
     letter-spacing: 2px;
+    color: white;
 }
 
 .navText {
@@ -24,10 +30,10 @@ body, html {
     letter-spacing: 2px;
     font-size: 200%;
     text-shadow: 2px 2px 4px #000000;
+    color: white;
 	-webkit-box-shadow: 8px 0px 6px -6px black;
 	-moz-box-shadow: 8px 0px 6px -6px black;
-	box-shadow: 8px 0px 6px -6px black;
-    /*font-family: 'Roboto', sans-serif;*/
+	box-shadow: 8px 0px 4px -6px black;
 }
 
 .navTextLast {
@@ -35,7 +41,7 @@ body, html {
     letter-spacing: 2px;
     font-size: 200%;
     text-shadow: 2px 2px 4px #000000;
-    /*font-family: 'Roboto', sans-serif;*/
+    color: white;
 }
 
 .logo {
@@ -47,6 +53,7 @@ body, html {
     letter-spacing: 2px;
     font-size: 300%;
     text-shadow: 2px 2px 4px #000000;
+    color: white;
 }
 
 .myPic {
@@ -54,10 +61,10 @@ body, html {
 }
 
 .paraText {
-    font-family: 'Fjalla One', sans-serif;
     letter-spacing: 2px;
     font-size: 100%;
     text-shadow: 2px 2px 4px #000000; 
+    color: white;
 }
 
 .paragraphs {
@@ -71,6 +78,7 @@ body, html {
     letter-spacing: 2px;
     font-size: 300%;
     text-shadow: 2px 2px 4px #000000;
+    color: white;
 }
 
 .carousel-inner img {
@@ -86,6 +94,7 @@ body, html {
     font-family: 'Fjalla One', sans-serif;
     letter-spacing: 2px;
     text-shadow: 2px 2px 4px #000000; 
+    color: white;
     background-color: #738485;
     opacity: .9;
 }
@@ -93,8 +102,10 @@ body, html {
 .carDesc {
     font-family: 'Fjalla One', sans-serif;
     letter-spacing: 2px;
+    font-size: 75%;
     text-shadow: 2px 2px 4px #000000; 
     background-color: #738485;
+    color: white;
     opacity: .9;
 }
 
@@ -114,10 +125,68 @@ footer a:hover {
 }
 
 .overlay .mask:hover { 
-    opacity: 0.5; 
+    opacity: 0.9; 
 }
 
 .conImg {
     width: 100%;
     padding: 0;
+}
+
+.card {
+    -webkit-box-shadow: none;
+    box-shadow: none; 
+    background-color: #738485;
+    color: white;
+}
+
+.card-title {
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px #000000; 
+    font-size: 200%;
+    color: white;
+}
+
+.card-text {
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px #000000; 
+    font-size: 175%;
+    color: white;
+}
+
+.contactDes {
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px #000000; 
+    font-size: 300%;
+    color: white;
+}
+
+.container-fluid {
+    width: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.card-img-top {
+    width: 100%;
+}
+
+.smallTitle {
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: 2px;
+    font-size: 200%;
+    text-shadow: 2px 2px 4px #000000;
+    color: white;
+}
+
+.cardText {
+    letter-spacing: 2px;
+    font-size: 100%;
+    text-shadow: 2px 2px 4px #000000; 
+    color: white;
 }

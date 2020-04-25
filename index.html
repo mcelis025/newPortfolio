@@ -19,34 +19,37 @@
 </head>
 <body>
 <div class="container-fluid bg"> 
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top mb-5">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top mb-5 navi">
     <div class="container-fluid">
-      <a class="navbar-brand myPage text-light ml-5" href="#about">
+      <a class="navbar-brand myPage" href="#about">
         <img src="assets/images/newLogo3.png" class="d-inline-block align-center logo" alt="logo">
           Miguel Celis
       </a>
       <button class="navbar-toggler bg-dark" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="justify-content-end ml-3 mr-5 collapse navbar-collapse" id="collapsibleNavbar">
+      <div class="justify-content-end collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link text-light border-right border-light navText" href="#about">About Me</a>
+            <a class="nav-link border-right border-light navText" href="#about">About Me</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-light border-right border-light navText" href="#portfolio">Portfolio</a>
+            <a class="nav-link border-right border-light navText" href="#portfolio">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-light navTextLast" href="#contact">Contact</a>
+            <a class="nav-link navTextLast" href="#contact">Contact</a>
           </li>    
         </ul>
       </div> 
     </div>  
   </nav>
   <br><br>
+  <div class="container mt-5 mb-5"></div>
+  <div class="container mt-5 mb-5" id="about"></div>
 
-  <div class="container-fluid mt-5" id="about">
-    <p class="topPara text-light ml-5 pl-2">About Me</p>
+
+  <div class="container-fluid mt-5">
+    <p class="topPara ml-5 pl-2">About Me</p>
   </div>
   <div class="row container-fluid mt-3 pt-3 pb-3">
     <div class="col-md-1"></div>
@@ -54,13 +57,13 @@
         <img src="assets/images/miguel.jpg" class="d-inline-block align-left rounded border border-dark shadow myPic" alt="Miguel"/> 
       </div>
       <div class="col-md-7 border-dark rounded border pt-5 pb-5 paragraphs">
-        <p class="paraText text-light align-middle">
+        <p class="paraText align-middle">
           Are you in need of a highly reliable and motivated team member? Throughout the 4 years of my military career, I learned what it means to be part of a team. Communication, discipline, and integrity are key qualities that helped me be successful and qualities that I will bring to future teams. I am looking for a position as a web developer to put those skills into practice.
         </p>  
-        <p class="paraText text-light align-middle">
+        <p class="paraText align-middle">
           My military career has taught me to work in an environment that can change at any moment. I have been recognized by Senior Management as Airman, employee, of the Quarter due to my excellent management and problem-solving skills. I have led operations with teams that maintained accountability over items valued at $935M.
         </p>
-        <p class="paraText text-light align-middle">
+        <p class="paraText align-middle">
           I truly believe that the work ethic and skills I have acquired throughout my life will provide a unique perspective to any team! Allow me to show you how great of an addition I can be in your team!
         </p>
       </div>  
@@ -68,78 +71,117 @@
   </div>
 
   <div class="container-fluid ml-5 mt-5" id="portfolio">
-    <p class="secTitle text-light pl-2">Portfolio</p>
+    <p class="secTitle pl-2">Portfolio</p>
+  </div>
+  <div class="container-fluid mt-2">
+    <div class="row">
+      <div class="col-md-2"></div>  
+      <div class="col-md-8">
+        <p class="smallTitle">Featured Projects</p>
+      </div> 
+      <div class="col-md-2"></div>   
+    </div>
   </div>
   <div class="container-fluid">
     <div class="row">
       <div class="card-deck">
-        <div class="col-md-1"></div>
-        <div class="card col-md-5">
-          <img class="card-img-top" src="assets/images/wordGuess.png" alt="Card image" style="width:100%">
+        <div class="col-md-2"></div>
+        <div class="card col-md-3 border border-dark">
+          <img class="card-img-top pt-2 rounded" src="assets/images/wordGuess.png" alt="Card image">
           <div class="card-body">
-            <h4 class="card-title">John Doe</h4>
-            <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-           <a href="#" class="btn btn-primary stretched-link">See Profile</a>
+            <h4 class="card-title">Dragon Ball Z Hang Man</h4>
+            <p class="cardText">Test your Dragon Ball knowledge by trying to guess the word!</p>
+           <button href="https://mcelis025.github.io/Word-Guess-Game/" target="_blank" class="btn btn-teal" id="a">Check Out Site</button>
           </div>
         </div>
-        <div class="card col-md-5">
-          <img class="card-img-top" src="assets/images/rpgGame.png" alt="Card image" style="width:100%">
+        <div class="card col-md-3 border border-dark">
+          <img class="card-img-top pt-2 rounded" src="assets/images/rpgGame.png" alt="Card image">
           <div class="card-body">
-            <h4 class="card-title">John Doe</h4>
-            <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-           <a href="#" class="btn btn-primary stretched-link">See Profile</a>
+            <h4 class="card-title">One Punch RPG</h4>
+            <p class="cardText">Do you have the power of the One Punch Man?</p>
+            <button href="https://mcelis025.github.io/unit-4-game/" target="_blank" class="btn btn-teal" id="b">Check Out Site</button>
           </div>
         </div>
-        <div class="col-md-1"></div>
+        <div class="card col-md-3 border border-dark">
+          <img class="card-img-top pt-2 rounded" src="assets/images/alveolus.png" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title">Alveolus</h4>
+            <p class="cardText">Check the air quality in your area!</p>
+            <button href="https://kell-b.github.io/Group-Project/" target="_blank" class="btn btn-teal" id="c">Check Out Site</button>
+          </div>
+        </div>
+        <div class="col-md-2"></div>
       </div>
     </div>
-
+    <div class="container-fluid mt-5 mb-n4">
+      <div class="row">
+        <div class="col-md-2"></div>  
+        <div class="col-md-8">
+          <p class="smallTitle">More Projects</p>
+        </div> 
+        <div class="col-md-2"></div>   
+      </div>
+    </div>
     <div class="row">
       <div class="col-md-3"></div>  
       <div class="col-md-6">
-        <div id="projectCar" class="carousel slide mt-5" data-ride="carousel">
+        <div id="projectCar" class="carousel slide mt-5 border rounded border-dark" data-ride="carousel">
           <ul class="carousel-indicators">
             <li data-target="#projectCar" data-slide-to="0" class="active"></li>
             <li data-target="#projectCar" data-slide-to="1"></li>
             <li data-target="#projectCar" data-slide-to="2"></li>
             <li data-target="#projectCar" data-slide-to="3"></li>
             <li data-target="#projectCar" data-slide-to="4"></li>
+            <li data-target="#projectCar" data-slide-to="5"></li>
           </ul>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="assets/images/trainSchd.png" alt="Train" class="carImg rounded">
-                <div class="carousel-caption">
-                  <h2 class="carTitle">Train Scheduler</h2>
-                  <p class="carDesc">We had such a great time in LA!</p>
-                </div>   
+              <a href="https://mcelis025.github.io/trainTime/" target="_blank">
+                <img src="assets/images/trainSchd.png" alt="Train" class="carImg rounded">
+                  <div class="carousel-caption">
+                    <h2 class="carTitle">Train Scheduler<br><span class="carDesc">Come find out what time your train is scheduled to arrive!</span></h2>
+                  </div>   
+              </a>
             </div>
             <div class="carousel-item">
-              <img src="assets/images/trivia.png" alt="Trivia" class="carImg rounded">
-                <div class="carousel-caption">
-                  <h2 class="carTitle">Trivia Game</h2>
-                  <p class="carDesc">Thank you, Chicago!</p>
-                </div>   
+              <a href="https://mcelis025.github.io/TriviaGame/" target="_blank">
+                <img src="assets/images/trivia.png" alt="Trivia" class="carImg rounded">
+                  <div class="carousel-caption">
+                    <h2 class="carTitle">Trivia Game<br><span class="carDesc">Test your Fallout knowledge!</span></h2>
+                  </div> 
+              </a>  
             </div>
             <div class="carousel-item">
-              <img src="assets/images/gifTastic.png" alt="GifTastic" class="carImg rounded">
-                <div class="carousel-caption">
-                  <h2 class="carTitle">GifTastic</h2>
-                  <p class="carDesc">We love the Big Apple!</p>
-                </div>   
+              <a href="https://mcelis025.github.io/GifTastic/" target="_blank">
+                <img src="assets/images/gifTastic.png" alt="GifTastic" class="carImg rounded">
+                  <div class="carousel-caption">
+                    <h2 class="carTitle">GifTastic<br><span class="carDesc">Search for your favorite GIFs!</span></h2>
+                  </div>   
+              </a>
             </div>
             <div class="carousel-item">
-              <img src="assets/images/wordGuess.png" alt="Hang Man" class="carImg rounded">
-                <div class="carousel-caption">
-                  <h2 class="carTitle">Hang Man</h2>
-                  <p class="carDesc">We love the Big Apple!</p>
-                </div>   
+              <a href="https://mcelis025.github.io/Word-Guess-Game/" target="_blank">
+                <img src="assets/images/wordGuess.png" alt="Hang Man" class="carImg rounded">
+                  <div class="carousel-caption">
+                    <h2 class="carTitle">Hang Man<br><span class="carDesc">See if you can guess the correct word!</span></h2>
+                  </div> 
+              </a>      
             </div>
             <div class="carousel-item">
-              <img src="assets/images/rpgGame.png" alt="RPG Game" class="carImg rounded">
-                <div class="carousel-caption">
-                  <h2 class="carTitle">RPG Game</h2>
-                  <p class="carDesc">We love the Big Apple!</p>
-                </div>   
+              <a href="https://mcelis025.github.io/unit-4-game/" target="_blank">
+                <img src="assets/images/rpgGame.png" alt="RPG" class="carImg rounded">
+                  <div class="carousel-caption">
+                    <h2 class="carTitle">RPG<br><span class="carDesc">Choose your character and lead it to victory!</span></h2>
+                  </div> 
+              </a>  
+            </div>
+            <div class="carousel-item">
+              <a href="https://kell-b.github.io/Group-Project/" target="_blank">
+                <img src="assets/images/alveolus.png" alt="alveolus" class="carImg rounded">
+                  <div class="carousel-caption">
+                    <h2 class="carTitle">Alveolus<br><span class="carDesc">Check the AQI in your area!</span></h2>
+                  </div> 
+              </a>  
             </div>
           </div>
           <a class="carousel-control-prev" href="#projectCar" data-slide="prev">
@@ -156,7 +198,7 @@
   </div>
 
   <div class="container-fluid ml-5 mt-5" id="contact">
-    <p class="secTitle text-light pl-2">Contact</p>
+    <p class="secTitle pl-2">Contact</p>
   </div>
   <div class="container-fluid">
     <div class="row">
@@ -166,23 +208,32 @@
           <a href="https://linkedin.com/in/miguel-celis-3x11" target="_blank">
             <img class="card-img-top conImg" src="assets/images/linked.jpg" alt="Card image">
             <div class="mask flex-center near-moon-gradient">
-              <p class="white-text">Light overlay</p>
+              <p class="contactDes">LinkedIn</p>
           </div>
         </a>
         </div>
-        <div class="card col-md-2 bg-transparent">
+        <div class="card col-md-2 bg-transparent view overlay">
           <a href="https://github.com/mcelis025" target="_blank">
-            <img class="card-img-top" src="assets/images/gitWhite.png" alt="Card image">
+            <img class="card-img-top conImg" src="assets/images/gitWhite.png" alt="Card image">
+            <div class="mask flex-center near-moon-gradient">
+              <p class="contactDes">GitHub</p>
+          </div>
           </a>
         </div>
-        <div class="card col-md-2 bg-transparent">
+        <div class="card col-md-2 bg-transparent view overlay">
           <a href="mailto:mcelis025@gmail.com?subject=Miguel Celis Portfolio" target="_blank">
-            <img class="card-img-top" src="assets/images/gmail.png" alt="Card image">
+            <img class="card-img-top conImg" src="assets/images/email-icon-white-circle1.png" alt="Card image">
+            <div class="mask flex-center near-moon-gradient">
+              <p class="contactDes">Email</p>
+          </div>
           </a>
         </div>
-        <div class="card col-md-2 bg-transparent">
+        <div class="card col-md-2 bg-transparent view overlay">
           <a href="assets/documents/Resume.pdf" target="_blank">
-            <img class="card-img-top" src="assets/images/resume.png" alt="Card image">
+            <img class="card-img-top conImg" src="assets/images/resume-icon-16.jpg" alt="Card image">
+            <div class="mask flex-center near-moon-gradient">
+              <p class="contactDes">Resume</p>
+          </div>
           </a>
         </div>
         <div class="col-md-2"></div>
@@ -190,9 +241,12 @@
     </div>
   </div>
 
+  <div class="row">
+    <div class="col"><br><br></div>
+  </div>
 </div>
 
-<footer class="text-center mt-5">
+<footer class="text-center">
   <a class="up-arrow" href="#" title="TO TOP">
     <span class="far fa-arrow-alt-circle-up"></span>
   </a><br><br>
