@@ -190,3 +190,34 @@ footer a:hover {
     text-shadow: 2px 2px 4px #000000; 
     color: white;
 }
+
+/*Media*/
+@media (min-width: 576px) {
+    .card-columns {
+        column-count: 2;
+    }
+}
+
+@media (min-width: 768px) {
+    .card-columns {
+        column-count: 2;
+    }
+}
+
+@media (min-width: 992px) {
+    .logo {
+        display: none;
+    }
+    .logo1 {
+        display: block;
+    }
+}
+
+@media (min-width: 1200px) {
+    .logo {
+        display: inline-block;
+    }
+    .logo1 {
+        display: none;
+    }
+}
