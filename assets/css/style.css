@@ -138,6 +138,11 @@ footer a:hover {
     box-shadow: none; 
     background-color: #738485;
     color: white;
+    min-width: 250px;
+}
+
+.card-body {
+    min-height: 300px;
 }
 
 .card-title {
@@ -189,6 +194,13 @@ footer a:hover {
     font-size: 100%;
     text-shadow: 2px 2px 4px #000000; 
     color: white;
+}
+
+.btn {
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    right: 0;
 }
 
 /*Media*/
